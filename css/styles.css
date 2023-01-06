@@ -1,0 +1,397 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* HEADER */
+/* _____________________________ */
+.main-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  margin-left: 76px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #4d5ae5;
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.web {
+  color: #4d5ae5;
+}
+
+.studio {
+  color: var(--primary-text-color);
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.contact-mail,
+.contact-tel {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #4d5ae5;
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+  color: #4d5ae5;
+}
+
+/* HERO -======================================*/
+.hero {
+  background: #2e2f42;
+}
+
+.hero-container {
+  text-align: center;
+  padding-bottom: 188px;
+  padding-top: 188px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+}
+
+.modal-btn {
+  display: inline-block;
+  min-width: 169px;
+  height: 56px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  border-color: transparent;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+}
+/* VALUES ======================================*/
+
+.values-list {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: space-between;
+}
+.values-item {
+  width: 264px;
+}
+
+.values-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.values-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  padding-top: 8px;
+}
+
+/* SERVICES ========================================*/
+.services-list {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 120px;
+}
+.services-item {
+  margin-right: 24px;
+}
+
+.services-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.services-main-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+  margin-bottom: 72px;
+}
+
+/* TEAM =====================================*/
+.team {
+  background: #f4f4fd;
+}
+
+.team-cont {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-list {
+  display: flex;
+}
+.team-item {
+  margin-right: 24px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.team-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+  margin-bottom: 72px;
+}
+
+.team-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  padding-top: 32px;
+  margin-bottom: 8px;
+  background-color: #fff;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  padding-bottom: 32px;
+  background-color: #ffffff;
+}
+.team-background {
+  background-color: #fff;
+}
+/* FOOTER ====================================*/
+.footer {
+  background: #2e2f42;
+}
+.footer-cont {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+}
+
+.footer-studio {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+  margin-top: 16px;
+}
+
+/* -==========PORTFOLIO-==========
+==================================== */
+
+/* SERVICES================= */
+
+.services-port-cont {
+  padding-top: 69px;
+  padding-bottom: 72px;
+}
+
+.services-port-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-port-btn:not(:last-child) {
+  margin-right: 24px;
+}
+.service-btn {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: transparent;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.service-btn:hover,
+.service-btn:focus {
+  background: #4d5ae5;
+  color: #ffffff;
+}
+
+.hidden {
+  visibility: hidden;
+}
+/* PRODUCTS! ========================= */
+
+.products-cont {
+  padding-bottom: 120px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product-item {
+  width: 360px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  border: 1px solid #e7e9fc;
+}
+.product-img {
+  display: block;
+  padding-bottom: 32px;
+}
+
+.product-item:nth-child(3n) {
+  margin-right: 0;
+}
+.product-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.product-title {
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.product-text {
+  padding-bottom: 32px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
