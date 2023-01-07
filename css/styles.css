@@ -49,11 +49,11 @@ body {
 .main-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
@@ -129,12 +129,12 @@ body {
 /* HERO -======================================*/
 .hero {
   background: #2e2f42;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 
 .hero-container {
   text-align: center;
-  padding-bottom: 188px;
-  padding-top: 188px;
 }
 
 .hero-title {
@@ -169,11 +169,12 @@ body {
   background-color: #404bbf;
 }
 /* VALUES ======================================*/
-
-.values-list {
-  display: flex;
+.values {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.values-list {
+  display: flex;
   justify-content: space-between;
 }
 .values-item {
@@ -193,14 +194,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 /* SERVICES ========================================*/
-.services-list {
-  display: flex;
+.services {
   padding-top: 0px;
   padding-bottom: 120px;
+}
+.services-list {
+  display: flex;
 }
 .services-item {
   margin-right: 24px;
@@ -224,12 +227,10 @@ body {
 /* TEAM =====================================*/
 .team {
   background: #f4f4fd;
-}
-
-.team-cont {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .team-list {
   display: flex;
 }
@@ -282,10 +283,10 @@ body {
 /* FOOTER ====================================*/
 .footer {
   background: #2e2f42;
-}
-.footer-cont {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-cont {
   padding-left: 156px;
 }
 
@@ -305,10 +306,12 @@ body {
 ==================================== */
 
 /* SERVICES================= */
-
-.services-port-cont {
+.services-port {
   padding-top: 69px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
+}
+.services-port-cont {
+  margin-bottom: 72px;
 }
 
 .services-port-item {
@@ -350,10 +353,6 @@ body {
 }
 /* PRODUCTS! ========================= */
 
-.products-cont {
-  padding-bottom: 120px;
-}
-
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -366,10 +365,6 @@ body {
   margin-bottom: 48px;
   border: 1px solid #e7e9fc;
 }
-.product-img {
-  display: block;
-  padding-bottom: 32px;
-}
 
 .product-item:nth-child(3n) {
   margin-right: 0;
@@ -377,9 +372,15 @@ body {
 .product-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+
+.product-tt {
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-top: 32px;
+}
+
 .product-title {
   padding-bottom: 8px;
-  padding-left: 16px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -388,8 +389,6 @@ body {
 }
 
 .product-text {
-  padding-bottom: 32px;
-  padding-left: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
