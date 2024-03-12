@@ -170,19 +170,8 @@ a {
   background-color: #404bbf;
 }
 /* VALUES */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
+.visually-hidden
 .values {
   background-color: #ffffff;
   padding-top: 120px;
@@ -217,10 +206,10 @@ a {
 }
 .team-item {
   background-color: #ffffff;
-  flex-basis: calc((100%-3*24)/4);
+    flex-basis: calc((100%-3*24)/4);
+ border-radius: 0px 0px 4px 4px;
+ }
 
- 
-}
 
 .title-team {
   font-size: 36px;
@@ -236,6 +225,8 @@ a {
   display: flex;
   flex-wrap: wrap;
     gap: 24px;
+   
+    
 }
 .team-np{
   padding: 32px 16px;
