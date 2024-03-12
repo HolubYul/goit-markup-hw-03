@@ -78,10 +78,7 @@ a {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.menu-item{
-  
 
-}
 .menu-link {
   font-size: 16px;
   font-weight: 500;
@@ -119,9 +116,11 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   margin-left: 40px;
-  margin-right: 0;
 }
 
+.address-link:not(:last-child) {
+  margin-right: 40px;
+}
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
