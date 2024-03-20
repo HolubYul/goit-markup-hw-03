@@ -143,8 +143,9 @@ a {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  padding-bottom: 48px;
   margin: 0 auto;
+  margin-bottom: 48px;
+  
 }
 
 .button-hero {
